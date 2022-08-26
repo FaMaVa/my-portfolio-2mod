@@ -56,24 +56,166 @@ h2 {
     top: 240px;
 }
 
-table {
-    margin: 0 100px;
-    border-spacing: 0 50px;
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.table {
+    width: 100%;
+    margin: 20px 5px;
+    display: flex;
+    flex-direction: row;
 }
 
 .table-title {
+    flex: 0 0 15%;
     font-size: 40px;
-    font-weight: bolder;
+    text-align: end;
     color: #3b218e;
+    font-weight: bolder;
     border-right: 3px solid black;
-    text-align: right;
+    min-width: 150px;
     padding-right: 10px;
-    padding-bottom: 50px;
 }
 
 .table-content {
+    flex: 0 100% 80%;
+    margin-right: 100px;
     color: #3b218e;
-    display: block;
     font-size: 20px;
-    padding-left: 40px;
 }
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: fit-content;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+img {
+    block-size: 150px;
+    margin: 0 0.5%;
+}
+
+.description {
+    flex: 0 0 75%;
+    max-width: 950px;
+    margin: 0 2%;
+}
+
+h3 {
+    position: relative;
+    width: 200px;
+    font-size: 25px;
+    padding: 5px 0; 
+    background-color: #a498d7;
+}
+
+h4 {
+    position: relative;
+    width: 200px;
+    font-size: 15px; 
+    padding: 5px 0;
+    background-color: #a498d7;
+}
+
+h5 {
+    position: relative;
+    width: 200px;
+    font-size: 25px; 
+    padding: 5px 0;
+    background-color: #a498d7;
+}
+
+h6 {
+    position: relative;
+    width: 200px;
+    font-size: 15px; 
+    padding-top: 10px;
+    padding: 5px 0;
+    background-color: #a498d7;
+}
+
+section {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main-image {
+    background-image: url("../images/pink.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 3px solid #a498d7;
+    margin: 0.5%;
+}
+
+.staircase-image {
+    background-image: url("../images/staircase.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 3px solid #a498d7;
+    margin: 0.5%;
+}
+
+.typing-image {
+    background-image: url("../images/typing.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 3px solid #a498d7;
+    margin: 0.5%;
+}
+
+.desktop-image {
+    background-image: url("../images/purpledesktop.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 3px solid #a498d7;
+    margin: 0.5%;
+}
+
+.wall-image {
+    background-image: url("../images/wall.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 3px solid #a498d7;
+    margin: 0.5%;
+}
+
+
+@media screen and (min-width: 768px) {
+    .staircase-image, .typing-image, .desktop-image, .wall-image {
+        flex: 0 0 99%;
+        max-width: 99%;
+        height: 200px;
+    }
+    .main-image {
+        flex: 0 0 99%;
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .staircase-image, .typing-image, .desktop-image, .wall-image {
+      flex: 0 0 49%;
+      max-width: 49%;
+      height: 200px;
+    }
+
+    .main-image {
+        flex: 0 0 99%;
+        height: 400px;
+    }
+  }
