@@ -1,77 +1,88 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <meta charset="UTF-8">
-        <title>CSS Positioning</title>
-        <link rel="stylesheet" href="./assets/css/reset.css"/>
-        <link rel="stylesheet" href="./assets/css/style.css"/>
-    </head>
-    <body>
-        <header>
-            <h1>FaMaVa</h1>
-            <nav>
-                <a href="#about-me">About Me</a>
-                <a href="#work">Work</a>
-                <a href="#contact-me">Contact Me</a>
-                <a href="#">Resume</a>
-            </nav>
-        </header>
-        <section class=bricks>
-            <h2>Full-Stack Developer</h2>
-        </section>
-        <main>
 
-            <div id="about-me" class="table">
-                <div class="table-title">About<br>Me</div> 
-                <div class="table-content">
-                    <div class="about-me">
-                        <img src="assets/images/avatar.png" alt="profile pic">
-                        <div class="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean et est a dui semper facilisis. Pellentesque placerat elit a nunc. Nullam tortor odio, rutrum quis, egestas ut, posuere sed, felis. Vestibulum placerat feugiat nisl. Suspendisse lacinia, odio non feugiat vestibulum, sem erat blandit metus, ac nonummy magna odio pharetra felis. Vivamus vehicula velit non metus faucibus auctor. Nam sed augue. Donec orci. Cras eget diam et dolor dapibus sollicitudin. In lacinia, tellus vitae laoreet ultrices, lectus ligula dictum dui, eget condimentum velit dui vitae ante. Nulla nonummy augue nec pede. Pellentesque ut nulla. Donec at libero. Pellentesque at nisl ac nisi fermentum viverra. Praesent odio. Phasellus tincidunt diam ut ipsum. Donec eget est.</div>
-                    </div>
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Positioning</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>FaMaVa</h1>
+        <nav>
+            <a class=links href="#about-me">About Me</a>
+            <a class=links href="#work">Work</a>
+            <a class=links href="#contact-me">Contact Me</a>
+            <a class=links href="#">Resume</a>
+        </nav>
+    </header>
+    <section class=bricks>
+        <h2>Full-Stack Developer</h2>
+    </section>
+    <main>
+
+        <div id="about-me" class="table">
+            <div class="table-title">About<br>Me</div>
+            <div class="table-content">
+                <div class="about-me">
+                    <img src="assets/images/avatar.png" alt="profile pic">
+                    <div class="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean et est a
+                        dui semper facilisis. Pellentesque placerat elit a nunc. Nullam tortor odio, rutrum quis,
+                        egestas ut, posuere sed, felis. Vestibulum placerat feugiat nisl. Suspendisse lacinia, odio non
+                        feugiat vestibulum, sem erat blandit metus, ac nonummy magna odio pharetra felis. Vivamus
+                        vehicula velit non metus faucibus auctor. Nam sed augue. Donec orci. Cras eget diam et dolor
+                        dapibus sollicitudin. In lacinia, tellus vitae laoreet ultrices, lectus ligula dictum dui, eget
+                        condimentum velit dui vitae ante. Nulla nonummy augue nec pede. Pellentesque ut nulla. Donec at
+                        libero. Pellentesque at nisl ac nisi fermentum viverra. Praesent odio. Phasellus tincidunt diam
+                        ut ipsum. Donec eget est.</div>
                 </div>
             </div>
-        
-            <div id="work" class="table">
-                <div class="table-title">Work</div>
-                <div class="table-content">
-                    <section>
-                        <div class="main-image">
-                            <h3>Project</h3>
-                            <h4>Programming Language</h4>
-                        </div>
-                        <div class="staircase-image">
-                            <h5>Project</h3>
+        </div>
+
+        <div id="work" class="table">
+            <div class="table-title">Work</div>
+            <div class="table-content">
+                <section>
+                    <a class="main-image" href="https://famava.github.io/online-business-strategies-mod1/">
+                        <h3>Project</h3>
+                        <h4>Programming Language</h4>
+                    </a>
+                    <a class="staircase-image" href="https://famava.github.io/prework-study-guide/">
+                        <h5>Project</h3>
                             <h6>Programming Language</h4>
-                        </div>
-                        <div class="typing-image">
-                            <h5>Project</h3>
+                    </a>
+                    <a class="typing-image" href="https://famava.github.io/online-business-strategies-mod1/">
+                        <h5>Project</h3>
                             <h6>Programming Language</h4>
-                        </div>
-                        <div class="desktop-image">
-                            <h5>Project</h3>
+                    </a>
+                    <a class="desktop-image" href="https://famava.github.io/prework-study-guide/">
+                        <h5>Project</h3>
                             <h6>Programming Language</h4>
-                        </div>
-                        <div class="wall-image">
-                            <h5>Project</h3>
+                    </a>
+                    <a class="wall-image" href="https://famava.github.io/online-business-strategies-mod1/">
+                        <h5>Project</h3>
                             <h6>Programming Language</h4>
-                        </div>
-                    </section>
-                </div>
-            </div> 
-        
-        
-            <div id="contact-me" class="table">
-                <div class="table-title">Contact<br>Me</div>
-                <div class="table-content">
-                    <div class="contacts">
-                        <a href="tel:333-333-3333">333.333.3333</a>
-                        <a href="">famava@website.com</a>
-                        <a href="https://www.linkedin.com/">LinkedIn</a>
-                        <a href="https://github.com/FaMaVa">GitHub</a>
-                    </div>
+                    </a>
+                </section>
+            </div>
+        </div>
+
+
+        <div id="contact-me" class="table">
+            <div class="table-title">Contact<br>Me</div>
+            <div class="table-content">
+                <div class="contacts">
+                    <a class=links href="tel:333-333-3333">333.333.3333</a>
+                    <a class=links href="#">famava@website.com</a>
+                    <a class=links href="https://www.linkedin.com/">LinkedIn</a>
+                    <a class=links href="https://github.com/FaMaVa">GitHub</a>
                 </div>
             </div>
-        
-        </main>
-    </body>
+        </div>
+
+    </main>
+</body>
+
 </html>

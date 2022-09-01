@@ -29,7 +29,7 @@ nav {
     padding-right: 55px;
 }
 
-a {
+.links {
     padding: 0 15px;
     margin: 20px;
     color:#a498d7;
@@ -86,7 +86,6 @@ main {
 .table-content {
     flex: 0 100% 80%;
     margin-right: 100px;
-    color: #3b218e;
     font-size: 20px;
 }
 
@@ -160,6 +159,12 @@ section {
     background-position: center;
     border: 3px solid #a498d7;
     margin: 0.5%;
+    text-decoration: none;
+    color: #3b218e;
+}
+
+.main-image:hover {
+    filter: brightness(125%);
 }
 
 .staircase-image {
@@ -168,6 +173,13 @@ section {
     background-position: center;
     border: 3px solid #a498d7;
     margin: 0.5%;
+    text-decoration: none;
+    color: #3b218e;
+
+}
+
+.staircase-image:hover {
+    filter: brightness(125%);
 }
 
 .typing-image {
@@ -176,6 +188,12 @@ section {
     background-position: center;
     border: 3px solid #a498d7;
     margin: 0.5%;
+    text-decoration: none;
+    color: #3b218e;
+}
+
+.typing-image:hover {
+    filter: brightness(125%);
 }
 
 .desktop-image {
@@ -184,6 +202,12 @@ section {
     background-position: center;
     border: 3px solid #a498d7;
     margin: 0.5%;
+    text-decoration: none;
+    color: #3b218e;
+}
+
+.desktop-image:hover {
+    filter: brightness(125%);
 }
 
 .wall-image {
@@ -192,6 +216,12 @@ section {
     background-position: center;
     border: 3px solid #a498d7;
     margin: 0.5%;
+    text-decoration: none;
+    color: #3b218e;
+}
+
+.wall-image:hover {
+    filter: brightness(125%);
 }
 
 
