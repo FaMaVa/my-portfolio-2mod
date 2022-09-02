@@ -18,9 +18,10 @@ N/A
 ## Usage
 
 Link to webpage: 
-<br/> "deployed link"
+<br/> https://famava.github.io/my-portfolio-2mod/
 <br/>
 <br/>To use this website, you can click one of the links at the right of the header, and it will direct you to that specific strategy and description. For example, if I wanted to view my work, I would click the link at the top-right corner that says, "Work", and it would direct me to my apps. You can also scroll down to each section as well. To view my work, you may click on an app picture and it will take you to one of my two deployed homework assignments. Also, the "Contact Me" provides links, even though most of them are placeholders for now.
+![alt text](assets/images/FaMaVaPortfolio.png)
 
 ## Credits
 
